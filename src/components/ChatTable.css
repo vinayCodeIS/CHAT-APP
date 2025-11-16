@@ -1,0 +1,28 @@
+.table-wrapper {
+  max-height: 250px;
+  overflow-y: auto;
+  border-top: 1px solid var(--border);
+  background: var(--bg);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: var(--primary-light);
+  color: var(--text);
+  padding: 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid var(--border);
+}
+  
+tr:hover {
+  background: var(--hover);
+}
